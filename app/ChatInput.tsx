@@ -30,9 +30,9 @@ function ChatInput({session}: Props) {
       id,
       message: messageToSend,
       created_at: Date.now(),
-      username: session?.user?.name!,
-      profilePic: session?.user?.image!,
-      email: session?.user?.email!,
+      username: "Username",
+      profilePic: "https://links.papareact.com/jne",
+      email: "User Email",
     };
 
     const uploadMessageToUpStash = async () => {
